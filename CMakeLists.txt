@@ -20,7 +20,7 @@ include_directories(lib/glfw/include
 
 file(GLOB VENDORS_SOURCES lib/glad/src/glad.c)
 file(GLOB PROJECT_HEADERS src/*.h)
-file(GLOB PROJECT_SOURCES src/*.cpp)
+file(GLOB PROJECT_SOURCES src/*.c)
 file(GLOB PROJECT_CONFIGS CMakeLists.txt
                           Readme.md
                          .gitattributes
